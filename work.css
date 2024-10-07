@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box; /* Ensures padding is included in element's total width and height */
+}
+
+body {
+    margin: 0; /* Remove default margin */
+    font-family: Arial, sans-serif; /* Set a default font */
+    background-color: #f4f4f4; /* Optional: set a background color */
+}
+
+.main {
+    padding: 0 20px; /* Padding on left and right */
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between; /* Space out the nav items */
+    align-items: center; /* Align items vertically */
+    background-color: #fff; /* Optional: background for nav */
+    padding: 10px 0; /* Top and bottom padding */
+}
+
+.nav1 img {
+    height: 50px; /* Adjust logo size */
+}
+
+.nav2 input {
+    padding: 5px; /* Padding inside the input field */
+}
+
+.heading {
+    text-align: center; /* Center text */
+    padding: 40px 0; /* Top and bottom padding */
+}
+
+.content {
+    padding: 20px 0; /* Top and bottom padding */
+}
+
+.content1, .content2 {
+    max-width: 800px; /* Limit content width */
+    margin: 0 auto; /* Center content */
+    padding: 0 20px; /* Padding on left and right */
+}
+
+.content3, .content4, .content5, .content6 {
+    display: flex;
+    justify-content: space-between; /* Space out items evenly */
+    margin-bottom: 20px; /* Space between content sections */
+}
+
+.img {
+    text-align: center; /* Center images and text */
+}
+
+.footer {
+    background-color: #333; /* Dark background for footer */
+    color: white; /* White text */
+    padding: 20px 0; /* Padding */
+}
+
+.footer_links {
+    max-width: 800px; /* Limit footer width */
+    margin: 0 auto; /* Center footer */
+}
+
+.footer_links1 img {
+    width: 30px; /* Adjust social media icon size */
+    margin: 0 10px; /* Space between icons */
+}
+
+/* Add responsive adjustments */
+@media (max-width: 600px) {
+    .nav {
+        flex-direction: column; /* Stack nav items vertically on smaller screens */
+    }
+
+    .content3, .content4, .content5, .content6 {
+        flex-direction: column; /* Stack items vertically */
+    }
+}
