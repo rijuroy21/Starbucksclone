@@ -1,81 +1,175 @@
-* {
-    box-sizing: border-box; /* Ensures padding is included in element's total width and height */
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f6;
 }
 
-body {
-    margin: 0; /* Remove default margin */
-    font-family: Arial, sans-serif; /* Set a default font */
-    background-color: #f4f4f4; /* Optional: set a background color */
+header {
+    background-color: #5e3a1c;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
 }
 
-.main {
-    padding: 0 20px; /* Padding on left and right */
+h1 {
+    margin: 0;
 }
 
-.nav {
+main {
+    padding: 20px;
+}
+
+.recommendations {
     display: flex;
-    justify-content: space-between; /* Space out the nav items */
-    align-items: center; /* Align items vertically */
-    background-color: #fff; /* Optional: background for nav */
-    padding: 10px 0; /* Top and bottom padding */
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.nav1 img {
-    height: 50px; /* Adjust logo size */
+.recommendation {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
 }
 
-.nav2 input {
-    padding: 5px; /* Padding inside the input field */
+.recommendation:hover {
+    transform: scale(1.05);
 }
 
-.heading {
-    text-align: center; /* Center text */
-    padding: 40px 0; /* Top and bottom padding */
+.recommendation img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
 }
 
-.content {
-    padding: 20px 0; /* Top and bottom padding */
+h2 {
+    color: #5e3a1c;
 }
 
-.content1, .content2 {
-    max-width: 800px; /* Limit content width */
-    margin: 0 auto; /* Center content */
-    padding: 0 20px; /* Padding on left and right */
+.price {
+    font-weight: bold;
+    color: #7a4a3b;
 }
 
-.content3, .content4, .content5, .content6 {
+button {
+    background-color: #5e3a1c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #7a4a3b;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #5e3a1c;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+} */
+.big1 {
     display: flex;
-    justify-content: space-between; /* Space out items evenly */
-    margin-bottom: 20px; /* Space between content sections */
+    flex-direction: column; 
 }
 
-.img {
-    text-align: center; /* Center images and text */
+.product-container {
+    display: flex; 
+    flex-wrap: wrap;
+}
+.product {
+    margin: 10px; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: calc(25% - 20px);
+    box-sizing: border-box; 
 }
 
-.footer {
-    background-color: #333; /* Dark background for footer */
-    color: white; /* White text */
-    padding: 20px 0; /* Padding */
+
+.view-menu {
+    margin-top: 20px;
 }
 
-.footer_links {
-    max-width: 800px; /* Limit footer width */
-    margin: 0 auto; /* Center footer */
+.view-menu a {
+    text-decoration: none; 
+    color: #007bff;
 }
 
-.footer_links1 img {
-    width: 30px; /* Adjust social media icon size */
-    margin: 0 10px; /* Space between icons */
+.first1{
+    padding: 20px;
+    position: relative;
+   
+    right: 40px;
+}
+.img1{
+    border-radius: 25px;
 }
 
-/* Add responsive adjustments */
-@media (max-width: 600px) {
-    .nav {
-        flex-direction: column; /* Stack nav items vertically on smaller screens */
-    }
-
-    .content3, .content4, .content5, .content6 {
-        flex-direction: column; /* Stack items vertically */
-    }
+.new3{
+    background-color:rgb(217, 210, 211);
+    height: 500px;
+    padding: 20px;
+    position: relative;
+    left: 80px;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 10px;
 }
+.a{
+    height: 20px;
+    background-color: white;
+}
+p{
+    color: white;
+
+
+}
+   
+
+.bg-img{
+    border-radius: 50px;
+}
+.image-text-container
+ {
+    position: relative;
+    width: 100%;
+    max-width: 1300px; 
+    height: 380px;
+    overflow: hidden; 
+}
+
+h1 {
+    margin: 0;
+}
+.text-overlay1{
+    position: relative;
+    bottom: 190px;
+    right:5 px;
+    color: white;
+    width: 600px;
+}
+.b{
+    height: 40px;
+    background-color: white;
+}
+  .dummy_page {
+    height: 200px;
+    width: 100%;
+    background-color: #f0f0f0;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 60px 0px;
+  }
+  
